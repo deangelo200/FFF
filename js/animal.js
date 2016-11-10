@@ -37,7 +37,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
 
 
 
-$.get('/fact-data/animal.txt',function(data){
+$.get('fact-data/animal.txt',function(data){
     var lines = data.split("~");
     var arraytest = data.split("~").length; 
   
