@@ -159,9 +159,57 @@ $(".swiper-slide").addClass(function(index){
     return ""+index;
 });
 
-    
-   
-
 
 })*/
 
+
+var random = Math.floor((Math.random()*6)+1);
+
+if(random==1){
+$(".picture-background").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/4.jpeg")',
+    'background-position': 'center',
+    'background-size': "cover"
+});
+}
+
+
+if(random==2){
+$(".picture-background").css({
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/5.jpeg")',
+     'background-position': 'center',
+    'background-size': "cover"
+});
+}
+
+if(random==3){
+$(".picture-background").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/1.jpeg")',
+     'background-position': 'center',
+    'background-size': "cover"
+});
+}
+
+if(random==4){
+$(".picture-background").css({
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/2.jpg")',
+     'background-position': 'center',
+    'background-size': "cover"
+});
+}
+
+if(random==5){
+$(".picture-background").css({
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/3.jpg")',
+     'background-position': 'center',
+    'background-size': "cover"
+});
+}
+
+if(random==6){
+$(".picture-background").css({
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/6.jpg")',
+     'background-position': 'center',
+    'background-size': "cover"
+});
+}

@@ -1,10 +1,4 @@
 
-body{
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    text-rendering: optimizeLegibility;
-    
-}
 
 .picture-background{
     
@@ -24,69 +18,4 @@ body{
     background-color: rgba(39, 161, 197, 0.5);
 }
 
-
-span{
-    font-size: 150%;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    color: white;
-    text-align: center;
-    z-index: 999999;
-    position: relative;
-    top:50%;
-    transform: translate(0,-60%);
-    
-}
-
-
-
-.swiper-custom {
-  position:relative;
-  height:100%;
-}
-.swiper-container {
-  height:100%;
-}
-.swiper-slide {
-  background: transparent;
-    
-}
-.swiper-slide span {
-  text-align:center;
-  display:block;
-  margin: 20px;
-  font-size:21px;
-    background:transparent;
-    
-}
-.swiper-pagination-bullet {
-    display: none;
-  width: 10px;
-  height: 10px;
-  background: none;
-  border:1px solid #aaa;
-  border-radius: 0 0 0 0;
-  opacity:1;
-  cursor: pointer;
-}
-.swiper-pagination-bullet-active {
-  background: #007aff;
-  border-color: #007aff;
-}   
-
-
-.side-menu{
-    list-style: none;
-
-}
-
-
-
-.fa-bars{
-    color: white;
-    font-size: 110%;
-}
-
-
+   
