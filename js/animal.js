@@ -25,18 +25,29 @@ myApp.onPageInit('about', function (page) {
 
 var mySwiper = myApp.swiper('.swiper-container', {
   pagination: '.swiper-pagination',
-    keyboardControl:true,
   paginationHide: false,
   paginationClickable: true,
   nextButton: '.fa-forward',
   prevButton: '.swiper-button-prev',
 }); 
 
-
-
-
-
-
+ $.get('fact-data/animal.txt',function(data){
+    var lines = data.split("~");
+    var arraytest = data.split("~").length; 
+  
+   for(var i = 0  ; i <= arraytest-1 ; i++){
+       
+      
+        var example = 
+                    "<div class='swiper-slide'>" +
+                            "<span>"+lines[i]+"</span>"+
+                        "</div>";
+ 
+       // $(".swiper-wrapper").prepend(example); 
+       mySwiper.appendSlide(example);
+   }
+    
+});
 
 
 //opening the panels
@@ -134,45 +145,17 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 
 
 
-
-    
-
-
-
-
-
-
-
 ///Code use to give each class and index number and use document.ready function because
 // the swiper slide have to append first before signing the index number :)// 
-$(document).ready(function(){
+/*$(document).ready(function(){
     
-/*$(".swiper-slide").addClass(function(index){
+$(".swiper-slide").addClass(function(index){
     return ""+index;
 });
-*/
+
     
    
 
 
-})
+})*/
 
-$(document).load(function(){
-    $.get('fact-data/animal.txt',function(data){
-    var lines = data.split("~");
-    var arraytest = data.split("~").length; 
-  
-   for(var i = arraytest-1 ; i >= 0 ; i--){
-       
-      
-        var example = 
-                    "<div class='swiper-slide'>" +
-                            "<span>"+lines[i]+"</span>"+
-                        "</div>";
- 
-        $(".swiper-wrapper").prepend(example); 
-   }
-    
-});
-    
-})
