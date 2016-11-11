@@ -90,3 +90,8 @@ mySwiper.on('slideChangeEnd',function(){
     
 })
 
+
+$(".fa-share-alt").on('click',function(){
+    window.plugins.socialsharing.share('Message only');
+    
+})
