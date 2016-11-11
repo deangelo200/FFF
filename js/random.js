@@ -57,11 +57,13 @@ $.get('fact-data/random.txt',function(data){
  $$('.open-left-panel').on('click', function (e) {
         // 'left' position to open Left panel
         myApp.openPanel('left');
+        mySwiper.lockSwipes();
     });
 
 // closing the panels
   $$('.panel-close').on('click', function (e) {
-        myApp.closePanel();
+    myApp.closePanel();
+    mySwiper.unlockSwipes();
     });
 
 
@@ -73,7 +75,7 @@ function copyToClipboard(element) {
   $temp.remove();
 }
 
-$(".fa-clone").click(function(){
+$(".fa-files-o").click(function(){
     copyToClipboard(".swiper-slide-active");
     $(".text-copied").fadeIn(500).fadeOut(2000);
     

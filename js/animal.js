@@ -51,18 +51,22 @@ var mySwiper = myApp.swiper('.swiper-container', {
     
 });
 
+// Code use to control slides and recieve data from the text files. //
 
 //opening the panels
  $$('.open-left-panel').on('click', function (e) {
         // 'left' position to open Left panel
         myApp.openPanel('left');
+        mySwiper.lockSwipes();
     });
 
 // closing the panels
   $$('.panel-close').on('click', function (e) {
-        myApp.closePanel();
+    myApp.closePanel();
+    mySwiper.unlockSwipes();
     });
- 
+
+
 
 // Bottom Bar Icon functionality 
 
@@ -77,7 +81,7 @@ function copyToClipboard(element) {
   $temp.remove();
 }
 
-$(".fa-clone").click(function(){
+$(".fa-files-o").click(function(){
     copyToClipboard(".swiper-slide-active");
     $(".text-copied").fadeIn(500).fadeOut(2000);
     

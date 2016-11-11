@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', 'Aerial', sans-serif;
+    font-size: 12px;
     text-rendering: optimizeLegibility;
 }
 
@@ -72,10 +73,6 @@ span{
   background: #007aff;
   border-color: #007aff;
 }   
-
-
-
-
 
 
 
