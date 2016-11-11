@@ -46,6 +46,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
        $(".swiper-wrapper").prepend(example); 
        //mySwiper.appendSlide(example);
    }
+     mySwiper.updateContainerSize() 
      mySwiper.updateSlidesSize() 
     
 });
