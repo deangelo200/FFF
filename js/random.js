@@ -32,7 +32,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
 
 
 // Code use to control slides and recieve data from the text files. //
-$.get('/fact-data/random.txt',function(data){
+$.get('fact-data/random.txt',function(data){
     var lines = data.split("~");
     var arraytest = data.split("~").length;
   
