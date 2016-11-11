@@ -26,8 +26,6 @@ var mySwiper = myApp.swiper('.swiper-container', {
   paginationHide: false,
   paginationClickable: true,
   nextButton: '.fa-forward',
-  speed: 250,
-  spaceBetween:50
 });    
 // Code use to control properties of the slides \\
 

@@ -2,7 +2,6 @@
 <html>
   <head>
     <!-- Required meta tags-->
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,6 +19,27 @@
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
      <script src="js/jquery-3.1.1.js"> </script>
+     <script>
+      
+      $.get('fact-data/animal.txt',function(data){
+    var lines = data.split("~");
+    var arraytest = data.split("~").length; 
+  
+   for(var i = arraytest-1 ; i >= 0 ; i--){
+       
+      
+        var example = 
+                    "<div class='swiper-slide'>" +
+                            "<span>"+lines[i]+"</span>"+
+                        "</div>";
+ 
+        $(".swiper-wrapper").append(example); 
+   }
+    
+});
+    
+      </script>
+     
   </head>
   <body>
     <!-- Views -->
@@ -126,6 +146,7 @@
                     <div class="swiper-container">
                       <div class="swiper-pagination"></div>
                          <div class="swiper-wrapper">
+                    
                         </div>
                         </div>
                       </div>
