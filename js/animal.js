@@ -35,7 +35,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
     var lines = data.split("~");
     var arraytest = data.split("~").length; 
   
-   for(var i = 0  ; i <= arraytest-1 ; i++){
+   for(var i = arraytest-1  ; i >=0  ; i--){
        
       
         var example = 
@@ -43,9 +43,10 @@ var mySwiper = myApp.swiper('.swiper-container', {
                             "<span>"+lines[i]+"</span>"+
                         "</div>";
  
-       // $(".swiper-wrapper").prepend(example); 
-       mySwiper.appendSlide(example);
+       $(".swiper-wrapper").prepend(example); 
+       //mySwiper.appendSlide(example);
    }
+     mySwiper.updateSlidesSize() 
     
 });
 

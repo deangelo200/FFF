@@ -46,6 +46,8 @@ $.get('/fact-data/random.txt',function(data){
         $(".swiper-wrapper").prepend(example);
        
    }
+    mySwiper.updateContainerSize() 
+    mySwiper.updateSlidesSize() 
     
 });
 
