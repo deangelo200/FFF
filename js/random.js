@@ -81,10 +81,10 @@ $(".fa-clone").click(function(){
  
 
 mySwiper.on('slideChangeEnd',function(){
-    $("#bottom-btn-copy-hidden").fadeIn(500);
-    $("#bottom-btn-forward-hidden").fadeIn(500);
-    $("#bottom-btn-favorite-hidden").fadeIn(500);
-    $("#bottom-btn-share-hidden").fadeIn(500);
+    $("#bottom-btn-copy-hidden").fadeIn(100);
+    $("#bottom-btn-forward-hidden").fadeIn(100);
+    $("#bottom-btn-favorite-hidden").fadeIn(100);
+    $("#bottom-btn-share-hidden").fadeIn(100);
     
 })
 
