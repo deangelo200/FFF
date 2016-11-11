@@ -37,22 +37,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
 
 
 
-$.get('fact-data/animal.txt',function(data){
-    var lines = data.split("~");
-    var arraytest = data.split("~").length; 
-  
-   for(var i = arraytest-1 ; i >= 0 ; i--){
-       
-      
-        var example = 
-                    "<div class='swiper-slide'>" +
-                            "<span>"+lines[i]+"</span>"+
-                        "</div>";
- 
-        $(".swiper-wrapper").prepend(example); 
-   }
-    
-});
+
 
 //opening the panels
  $$('.open-left-panel').on('click', function (e) {
@@ -162,12 +147,32 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 // the swiper slide have to append first before signing the index number :)// 
 $(document).ready(function(){
     
-$(".swiper-slide").addClass(function(index){
+/*$(".swiper-slide").addClass(function(index){
     return ""+index;
 });
+*/
     
    
 
 
 })
 
+$(document).load(function(){
+    $.get('fact-data/animal.txt',function(data){
+    var lines = data.split("~");
+    var arraytest = data.split("~").length; 
+  
+   for(var i = arraytest-1 ; i >= 0 ; i--){
+       
+      
+        var example = 
+                    "<div class='swiper-slide'>" +
+                            "<span>"+lines[i]+"</span>"+
+                        "</div>";
+ 
+        $(".swiper-wrapper").prepend(example); 
+   }
+    
+});
+    
+})
