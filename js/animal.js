@@ -99,6 +99,11 @@ mySwiper.on('slideChangeEnd',function(){
     
 })
 
+$("#bottom-btn-share-hidden").click(function(){
+    window.location.reload()  
+})
+
+
 /*$("#bottom-btn-favorite-hidden").click(function(){
     var temp=$(".swiper-slide-active").text(); 
    favorite.push(temp);
@@ -163,6 +168,7 @@ function slidePicture(numIndex,picture){
 
 ///Code use to give each class and index number and use document.ready function because
 // the swiper slide have to append first before signing the index number :)// 
+
 
 
 
