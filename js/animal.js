@@ -50,8 +50,15 @@ var mySwiper = myApp.swiper('.swiper-container', {
      mySwiper.updateContainerSize() 
      mySwiper.updateSlidesSize()
      
-    slidePicture("0","img/animals-img/frog.jpg");
-    slidePicture("1","img/animals-img/ostrich.jpeg");
+slidePicture("0","img/animals-img/elephants.jpg");
+slidePicture("1","img/animals-img/ostrich.jpeg");
+slidePicture("2","img/animals-img/octopus.jpg");
+slidePicture("3","img/animals-img/catfish.jpg");
+slidePicture("4","img/animals-img/lobster.jpg");
+slidePicture("5","img/animals-img/turtle.jpg");
+slidePicture("6","img/animals-img/hummingbirds.jpg");
+
+
         
     
 
