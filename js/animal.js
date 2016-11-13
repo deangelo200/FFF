@@ -174,13 +174,9 @@ $(".swiper-slide").addClass(function(index){
     
     
 
-slidePicture("0","animals-img/catfish.jpg");
-slidePicture("1","animals-img/catfish.jpg");
-slidePicture("2","animals-img/catfish.jpg");
-slidePicture("5","../img/animals-img/turtle.jpg");
     
-    $(".8").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("animals-img/catfish.jpg")',
+    $(".1").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bear.jpg")',
     'background-position': 'center',
     'background-size': "cover"
     
