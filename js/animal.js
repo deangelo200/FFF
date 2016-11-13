@@ -174,20 +174,22 @@ $(".swiper-slide").addClass(function(index){
     
     
 
-alert("test 1")
 slidePicture("0","css/animals-img/catfish.jpg");
 slidePicture("1","css/animals-img/catfish.jpg");
 slidePicture("2","css/animals-img/catfish.jpg");
 slidePicture("5","img/animals-img/turtle.jpg");
     
+    $(".8").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("css/animals-img/catfish.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+    
+    
 })
+    })
 
 
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
-   alert("test 2")
-}
 
 
 
