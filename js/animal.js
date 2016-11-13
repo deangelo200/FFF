@@ -32,6 +32,16 @@ var mySwiper = myApp.swiper('.swiper-container', {
   effect:"slide"
 }); 
 
+
+function slidePicture(numIndex,picture){
+    $("#"+numIndex).css({
+    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
+    'background-position': 'center',
+    'background-size': "cover"
+    });
+}
+
+
  $.get('fact-data/animal.txt',function(data){
     var lines = data.split("~");
     var arraytest = data.split("~").length; 
@@ -171,14 +181,6 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 }); */
 
 
-
-function slidePicture(numIndex,picture){
-    $("#"+numIndex).css({
-    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
-    'background-position': 'center',
-    'background-size': "cover"
-    });
-}
 
 
 ///Code use to give each class and index number and use document.ready function because
