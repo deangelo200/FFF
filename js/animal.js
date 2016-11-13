@@ -49,13 +49,12 @@ var mySwiper = myApp.swiper('.swiper-container', {
    }
      mySwiper.updateContainerSize() 
      mySwiper.updateSlidesSize()
-         $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/frog.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
+     
+    slidePicture("0","img/animals-img/frog.jpg");
+    slidePicture("1","img/animals-img/ostrich.jpeg");
         
     
-})
+
     
      
     
@@ -167,7 +166,7 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 
 
 function slidePicture(numIndex,picture){
-    $("."+numIndex).css({
+    $("#"+numIndex).css({
     'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
     'background-position': 'center',
     'background-size': "cover"
