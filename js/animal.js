@@ -32,16 +32,6 @@ var mySwiper = myApp.swiper('.swiper-container', {
   effect:"slide"
 }); 
 
-
-function slidePicture(numIndex,picture){
-    $("#"+numIndex).css({
-    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
-    'background-position': 'center',
-    'background-size': "cover"
-    });
-}
-
-
  $.get('fact-data/animal.txt',function(data){
     var lines = data.split("~");
     var arraytest = data.split("~").length; 
@@ -60,19 +50,44 @@ function slidePicture(numIndex,picture){
      mySwiper.updateContainerSize() 
      mySwiper.updateSlidesSize()
      
-slidePicture("0","img/animals-img/elephants.jpg");
-slidePicture("1","img/animals-img/ostrich.jpeg");
-slidePicture("2","img/animals-img/octopus.jpg");
-slidePicture("3","img/animals-img/catfish.jpg");
-slidePicture("4","img/animals-img/lobster.jpg");
-slidePicture("5","img/animals-img/turtle.jpg");
-slidePicture("6","img/animals-img/hummingbirds.jpg");
+     
+      
+    $("#0").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/elephants.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+  
+})
 
+      $("#1").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/ostrich.jpeg")',
+    'background-position': 'center',
+    'background-size': "cover"
+  
+})
 
-        
-    
+      $("#2").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/octopus.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+  
+})
 
-    
+      $("#3").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/catfish.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+  
+})
+
+      $("#4").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/lobster.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+  
+})
+
+         
      
     
 });
@@ -182,13 +197,13 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 
 
 
-
-///Code use to give each class and index number and use document.ready function because
-// the swiper slide have to append first before signing the index number :)// 
-
-
-
-
+function slidePicture(numIndex,picture){
+    $("#"+numIndex).css({
+    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
+    'background-position': 'center',
+    'background-size': "cover"
+    });
+}
 
 
 
