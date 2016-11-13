@@ -166,7 +166,7 @@ function slidePicture(numIndex,picture){
 
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     
 $(".swiper-slide").addClass(function(index){
     return ""+index;
@@ -174,25 +174,7 @@ $(".swiper-slide").addClass(function(index){
     
     
 
-
-slidePicture("0","css/animals-img/catfish.jpg");
-slidePicture("1","css/animals-img/catfish.jpg");
-slidePicture("2","css/animals-img/catfish.jpg");
-slidePicture("5","img/animals-img/turtle.jpg");
-    
-})*/
-
-
-document.addEventListener("deviceready", function(){
-    
-    
-    $(".swiper-slide").addClass(function(index){
-    return ""+index;
-});
-    
-    
-
-
+alert("test 1")
 slidePicture("0","css/animals-img/catfish.jpg");
 slidePicture("1","css/animals-img/catfish.jpg");
 slidePicture("2","css/animals-img/catfish.jpg");
@@ -200,9 +182,12 @@ slidePicture("5","img/animals-img/turtle.jpg");
     
 })
 
-    
-    
 
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
+   alert("test 2")
+}
 
 
 
