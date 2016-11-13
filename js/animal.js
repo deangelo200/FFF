@@ -175,15 +175,15 @@ $(".swiper-slide").addClass(function(index){
     
 
 
-slidePicture("2","../img/animals-img/octopus.jpg");
-slidePicture("3","../img/animals-img/catfish.jpg");
+slidePicture("0","css/animals-img/catfish.jpg");
+slidePicture("0","css/animals-img/catfish.jpg");
 slidePicture("4","../img/animals-img/lobster.jpg");
 slidePicture("5","img/animals-img/turtle.jpg");
     
 })
 
 $(document).on("pageinit",function(){
-  slidePicture("1","img/animals-img/ostrich.jpeg");
+  slidePicture("0","css/animals-img/catfish.jpg");
     slidePicture("3","../img/animals-img/catfish.jpg")
     
     
