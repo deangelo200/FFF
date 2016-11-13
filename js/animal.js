@@ -40,7 +40,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
        
       
         var example = 
-                    "<div class='swiper-slide'>" +
+                    `<div class='swiper-slide' id="${i}">` +
                             "<span>"+lines[i]+"</span>"+
                         "</div>";
  
@@ -168,14 +168,14 @@ function slidePicture(numIndex,picture){
 
 $(document).ready(function(){
     
-$(".swiper-slide").addClass(function(index){
+/*$(".swiper-slide").addClass(function(index){
     return ""+index;
-});
+});*/
     
     
-    alert("document loaded bitch");
     
-    $(".1").css({
+    
+    $("#0").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://loremflickr.com/g/320/240/paris")',
     'background-position': 'center',
     'background-size': "cover"
@@ -184,24 +184,24 @@ $(".swiper-slide").addClass(function(index){
 })
     
     
-    $(".5").css({
+    $("#5").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/octopus.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
     
-})
+})*/
     
     
 })
 
 
 
-//var random = Math.floor((Math.random()*6)+1);
+/*var random = Math.floor((Math.random()*6)+1);
 
-/*if(random==1){
+if(random==1){
 $(".picture-background").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/4.jpeg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bear.jpg")',
     'background-position': 'center',
     'background-size': "cover"
 });
@@ -210,7 +210,7 @@ $(".picture-background").css({
 
 if(random==2){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/5.jpeg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bird.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -218,7 +218,7 @@ $(".picture-background").css({
 
 if(random==3){
 $(".picture-background").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/1.jpeg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/catfish.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -226,7 +226,7 @@ $(".picture-background").css({
 
 if(random==4){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/2.jpg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/cow.jpeg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -234,7 +234,7 @@ $(".picture-background").css({
 
 if(random==5){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/3.jpg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/elephant.jpeg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -242,10 +242,10 @@ $(".picture-background").css({
 
 if(random==6){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/6.jpg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/lobster.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
-}
-*/
+}*/
+
 
