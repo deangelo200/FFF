@@ -239,4 +239,3 @@ $(".picture-background").css({
 }
 */
 
-slidePicture("5","img/animals-img/turtle.jpg");
