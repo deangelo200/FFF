@@ -164,14 +164,17 @@ function slidePicture(numIndex,picture){
 ///Code use to give each class and index number and use document.ready function because
 // the swiper slide have to append first before signing the index number :)// 
 
+function slideNum(){
+    $(".swiper-slide").addClass(function(index){
+    return ""+index;
+});
+   
+}
 
 
 $(document).ready(function(){
     
-$(".swiper-slide").addClass(function(index){
-    return ""+index;
-});
-    
+ 
     
 
     
@@ -184,8 +187,8 @@ $(".swiper-slide").addClass(function(index){
 })
     
     
-    $(".2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("/img/animals-img/octopus.jpg")',
+    $(".5").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/octopus.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
