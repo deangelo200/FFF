@@ -177,13 +177,13 @@ $(".swiper-slide").addClass(function(index){
 slidePicture("0","animals-img/catfish.jpg");
 slidePicture("1","animals-img/catfish.jpg");
 slidePicture("2","animals-img/catfish.jpg");
-slidePicture("5","img/animals-img/turtle.jpg");
+slidePicture("5","../img/animals-img/turtle.jpg");
     
     $(".8").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("animals-img/catfish.jpg")',
     'background-position': 'center',
     'background-size': "cover"
-    alert("hi");
+    
     
 })
     })
