@@ -184,8 +184,11 @@ $(".swiper-slide").addClass(function(index){
 })
     })
 
+document.addEventListener("deviceready", onDeviceReady, false);
 
-
+function onDeviceReady() {
+    alert("It works");
+}
 
 
 
