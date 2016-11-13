@@ -48,7 +48,16 @@ var mySwiper = myApp.swiper('.swiper-container', {
        //mySwiper.appendSlide(example);
    }
      mySwiper.updateContainerSize() 
-     mySwiper.updateSlidesSize() 
+     mySwiper.updateSlidesSize()
+         $("#0").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/frog.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+        
+    
+})
+    
+     
     
 });
 
@@ -177,14 +186,7 @@ $(document).ready(function(){
 /*$(".swiper-slide").addClass(function(index){
     return ""+index;
 });*/
-    $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/frog.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-        
-    
-})
-    
+
     
     $("#5").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/octopus.jpg")',
