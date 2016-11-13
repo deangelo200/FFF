@@ -275,7 +275,7 @@ function onLoad(){
     
     
            $("#1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("animals-img/frog.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("animals-img/catfish.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
@@ -284,7 +284,7 @@ function onLoad(){
     
     
     $("#2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("/css/img/animals-img/octopus.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("/css/img/animals-img/catfish.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
