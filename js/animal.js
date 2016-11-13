@@ -187,43 +187,6 @@ function slidePicture(numIndex,picture){
 
 
 
-$(document).ready(function(){
-    
-/*$(".swiper-slide").addClass(function(index){
-    return ""+index;
-});*/
-
-    
-    $("#5").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/octopus.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-        
-    
-})
-    
-    
-           $("#1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/bird.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-        
-    
-})
-    
-    
-    $("#2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/catfish.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-        
-    
-})
-    
-    
-
-    
-})
 
 
 
