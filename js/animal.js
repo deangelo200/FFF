@@ -179,17 +179,21 @@ $(".swiper-slide").addClass(function(index){
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://loremflickr.com/g/320/240/paris")',
     'background-position': 'center',
     'background-size': "cover"
+        
+    
+})
+    
+    
+    $(".2").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("/img/animals-img/octopus.jpg")',
+    'background-position': 'center',
+    'background-size': "cover"
+        
+    
+})
     
     
 })
-    })
-
-document.addEventListener("deviceready", onDeviceReady, false);
-
-function onDeviceReady() {
-    alert("It works");
-}
-
 
 
 
