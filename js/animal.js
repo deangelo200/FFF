@@ -176,7 +176,7 @@ $(".swiper-slide").addClass(function(index){
 
     
     $(".1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bear.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/bear.jpg")',
     'background-position': 'center',
     'background-size': "cover"
     
