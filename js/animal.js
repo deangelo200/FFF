@@ -176,7 +176,7 @@ $(document).ready(function(){
     
     
     $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://loremflickr.com/g/320/240/paris")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/frog.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
@@ -190,7 +190,7 @@ $(document).ready(function(){
     'background-size': "cover"
         
     
-})*/
+})
     
     
 })
