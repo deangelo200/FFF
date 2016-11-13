@@ -164,19 +164,16 @@ function slidePicture(numIndex,picture){
 ///Code use to give each class and index number and use document.ready function because
 // the swiper slide have to append first before signing the index number :)// 
 
-function slideNum(){
-    $(".swiper-slide").addClass(function(index){
-    return ""+index;
-});
-   
-}
 
 
 $(document).ready(function(){
     
- 
+$(".swiper-slide").addClass(function(index){
+    return ""+index;
+});
     
-
+    
+    alert("document loaded bitch");
     
     $(".1").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://loremflickr.com/g/320/240/paris")',
