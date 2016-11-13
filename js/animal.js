@@ -177,10 +177,8 @@ $(document).ready(function(){
 /*$(".swiper-slide").addClass(function(index){
     return ""+index;
 });*/
-    
-
-       $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(http://pipsum.com/435x310.jpg)',
+          $("#0").css({
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/frog.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
@@ -189,7 +187,7 @@ $(document).ready(function(){
     
     
     $("#5").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://pipsum.com/435x310.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/octopus.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
@@ -198,7 +196,7 @@ $(document).ready(function(){
     
     
            $("#1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://pipsum.com/435x310.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("animals-img/catfish.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
@@ -207,15 +205,12 @@ $(document).ready(function(){
     
     
     $("#2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://pipsum.com/435x310.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("/css/img/animals-img/catfish.jpg")',
     'background-position': 'center',
     'background-size': "cover"
         
     
 })
-    
-
-        
     
 
     
@@ -276,3 +271,7 @@ $(".picture-background").css({
 
     
 
+function onLoad(){
+
+    
+}
