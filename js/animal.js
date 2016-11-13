@@ -29,6 +29,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
   paginationClickable: true,
   nextButton: '.fa-forward',
   prevButton: '.swiper-button-prev',
+  effect:"slide"
 }); 
 
  $.get('fact-data/animal.txt',function(data){
@@ -151,21 +152,50 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 
 
 
+function slidePicture(numIndex,picture){
+    $("."+numIndex).css({
+    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
+    'background-position': 'center',
+    'background-size': "cover"
+    });
+}
+
+
 ///Code use to give each class and index number and use document.ready function because
 // the swiper slide have to append first before signing the index number :)// 
-/*$(document).ready(function(){
+
+
+
+$(document).ready(function(){
     
 $(".swiper-slide").addClass(function(index){
     return ""+index;
 });
+    
+    
+
+slidePicture("0","../img/animals-img/elephants.jpg");
+slidePicture("1","../img/animals-img/ostrich.jpeg");
+slidePicture("2","../img/animals-img/octopus.jpg");
+slidePicture("3","../img/animals-img/catfish.jpg");
+slidePicture("4","../img/animals-img/lobster.jpg");
+slidePicture("5","../img/animals-img/turtle.jpg");
+    
+   
+    
+     
+    
+ 
+})
 
 
-})*/
 
 
-var random = Math.floor((Math.random()*6)+1);
 
-if(random==1){
+
+//var random = Math.floor((Math.random()*6)+1);
+
+/*if(random==1){
 $(".picture-background").css({
    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/4.jpeg")',
     'background-position': 'center',
@@ -213,3 +243,4 @@ $(".picture-background").css({
     'background-size': "cover"
 });
 }
+*/
