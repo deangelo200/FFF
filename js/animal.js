@@ -53,35 +53,35 @@ var mySwiper = myApp.swiper('.swiper-container', {
      
       
     $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/elephants.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo..momedium.com/cow.jpeg")',
     'background-position': 'center',
     'background-size': "cover"
   
 })
 
       $("#1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/ostrich.jpeg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/frog.jpg")',
     'background-position': 'center',
     'background-size': "cover"
   
 })
 
       $("#2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/octopus.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/turtle.jpg")',
     'background-position': 'center',
     'background-size': "cover"
   
 })
 
       $("#3").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/catfish.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/lobster.jpg")',
     'background-position': 'center',
     'background-size': "cover"
   
 })
 
       $("#4").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("img/animals-img/lobster.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/hummingbirds.jpg")',
     'background-position': 'center',
     'background-size': "cover"
   
