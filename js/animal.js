@@ -53,7 +53,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
      
       
     $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo..momedium.com/cow.jpeg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/cow.jpeg")',
     'background-position': 'center',
     'background-size': "cover"
   

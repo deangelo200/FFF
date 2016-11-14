@@ -2,7 +2,7 @@
 
 .picture-background{
     
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bear.jpg"); 
+    background: #000; 
     background-position: center;
     background-size: cover;
 }
@@ -18,6 +18,4 @@
 .main-home-nav:before{
     background-color: rgba(39, 174, 96, 0.50);
 }
-
-
 
