@@ -49,46 +49,7 @@ var mySwiper = myApp.swiper('.swiper-container', {
    }
      mySwiper.updateContainerSize() 
      mySwiper.updateSlidesSize()
-     
-     
       
-    $("#0").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/cow.jpeg")',
-    'background-position': 'center',
-    'background-size': "cover"
-  
-})
-
-      $("#1").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/frog.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-  
-})
-
-      $("#2").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/turtle.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-  
-})
-
-      $("#3").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/lobster.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-  
-})
-
-      $("#4").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("http://deangelo.momedium.com/hummingbirds.jpg")',
-    'background-position': 'center',
-    'background-size': "cover"
-  
-})
-
-         
-     
     
 });
 
@@ -134,13 +95,9 @@ mySwiper.on('slideChangeEnd',function(){
     $("#bottom-btn-forward-hidden").fadeIn(100);
     $("#bottom-btn-favorite-hidden").fadeIn(100);
     $("#bottom-btn-share-hidden").fadeIn(100);
-    //alert(mySwiper.activeIndex);
+   
     
     
-})
-
-$("#bottom-btn-share-hidden").click(function(){
-    window.location.reload()  
 })
 
 
@@ -197,21 +154,13 @@ $(".swiper-slide-active").addClass("favorite-like").removeClass("favorite-dislik
 
 
 
-function slidePicture(numIndex,picture){
-    $("#"+numIndex).css({
-    'background-image':`linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(${picture})`,
-    'background-position': 'center',
-    'background-size': "cover"
-    });
-}
 
 
-
-/*var random = Math.floor((Math.random()*6)+1);
+var random = Math.floor((Math.random()*6)+1);
 
 if(random==1){
 $(".picture-background").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bear.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("http://deangelo.momedium.com/cow.jpeg")',
     'background-position': 'center',
     'background-size': "cover"
 });
@@ -220,7 +169,7 @@ $(".picture-background").css({
 
 if(random==2){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/bird.jpg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("http://deangelo.momedium.com/frog.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -228,7 +177,7 @@ $(".picture-background").css({
 
 if(random==3){
 $(".picture-background").css({
-   'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/catfish.jpg")',
+   'background-image':'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("http://deangelo.momedium.com/turtle.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -236,7 +185,7 @@ $(".picture-background").css({
 
 if(random==4){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/cow.jpeg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("http://deangelo.momedium.com/hummingbirds.jpg")',
      'background-position': 'center',
     'background-size': "cover"
 });
@@ -244,18 +193,11 @@ $(".picture-background").css({
 
 if(random==5){
 $(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/elephant.jpeg")',
+    'background-image':'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(http://deangelo.momedium.com/elephants.jpg)',
      'background-position': 'center',
     'background-size': "cover"
 });
 }
 
-if(random==6){
-$(".picture-background").css({
-    'background-image':'linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/animals-img/lobster.jpg")',
-     'background-position': 'center',
-    'background-size': "cover"
-});
-}*/
 
     

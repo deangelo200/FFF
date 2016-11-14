@@ -1,10 +1,8 @@
 
-
 .picture-background{
-    
-    background: #000; 
-    background-position: center;
-    background-size: cover;
+background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("../img/animals-img/animal.jpeg");
+background-position:center;
+background-size:cover;
 }
 
 
@@ -18,4 +16,6 @@
 .main-home-nav:before{
     background-color: rgba(39, 174, 96, 0.50);
 }
+
+
 
